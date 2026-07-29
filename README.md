@@ -1,52 +1,60 @@
-# ZECPATH-AI
+# Zecpath AI
 
 ## Overview
 
-ZECPATH-AI is a modular AI project created as part of the Zecpath AI Training Program. The project follows a structured folder organization and includes logging, testing, and version control setup.
+Zecpath AI is an AI-powered recruitment system designed to automate different stages of the hiring process.
+
+### Features
+
+- Resume Parsing
+- ATS Score Calculation
+- AI Candidate Screening
+- Interview Assistance
+- Candidate Scoring
+- Logging & Testing
 
 ---
 
 ## Project Structure
 
 ```
-ZECPATH-AI/
-│── ats_engine/
-│── interview_ai/
-│── parsers/
-│── scoring/
-│── screening_ai/
-│── tests/
-│── utils/
-│── logs/
-│── main.py
-│── requirements.txt
-│── README.md
-│── .gitignore
+Zecpath-AI/
+│
+├── data/
+├── parsers/
+├── ats_engine/
+├── screening_ai/
+├── interview_ai/
+├── scoring/
+├── utils/
+├── tests/
+├── logs/
+├── main.py
+├── requirements.txt
+├── libraries.txt
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-## Features
+## Setup
 
-- Modular project structure
-- Virtual environment setup
-- Logging system
-- Unit testing using Pytest
-
-
----
-
-## Installation
+Create a virtual environment
 
 ```bash
-git clone https://github.com/anaswaravr/Zecpath-AI.git
-
-cd Zecpath-AI
-
 python -m venv venv
+```
 
+Activate the virtual environment
+
+```bash
 venv\Scripts\activate
+```
 
+Install dependencies
+
+```bash
 pip install -r requirements.txt
 ```
 
@@ -58,13 +66,9 @@ pip install -r requirements.txt
 python main.py
 ```
 
-Run Logger
+---
 
-```bash
-python utils/logger.py
-```
-
-Run Tests
+## Run Tests
 
 ```bash
 pytest
@@ -72,12 +76,15 @@ pytest
 
 ---
 
-## Technologies Used
+## Logging
 
-- Python
-- Git & GitHub
-- Pytest
-- Logging Module
+Run the logger
+
+```bash
+python utils/logger.py
+```
+
+Logs will be stored inside the `logs/` directory.
 
 ---
 
