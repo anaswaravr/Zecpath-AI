@@ -1,0 +1,20 @@
+# Zecpath AI - Required Python Libraries
+
+openai
+fastapi
+uvicorn
+python-dotenv
+pydantic
+pdfplumber
+python-docx
+spacy
+nltk
+sentence-transformers
+scikit-learn
+pandas
+numpy
+loguru
+pytest
+black
+isort
+flake8
